@@ -1,5 +1,5 @@
 using System;
-namespace Lessons
+using Lessons;
 {
     public class NumericTypes
     {
@@ -41,11 +41,15 @@ namespace Lessons
         // range -7,9228E+24 to 7,9228E+24
         Decimal _myDecimalValue = 13.234M;
 
+        // type Inference; the getType method returns the variable type.
         public void GetSomeType()
         {
+          // double
           Console.WriteLine(3.0.GetType());
+          // float
           Console.WriteLine(_myFloatValue.GetType());
         }
-
+        // Method to demostrate an Explicit Cast from float to int.
+        public int ConvertFloatToInt(float value)
     }
 }

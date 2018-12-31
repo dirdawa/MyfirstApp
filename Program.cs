@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Lessons;
 /*This namespace represents the file folder that
 the class is in. */
 namespace classwork
@@ -13,7 +13,24 @@ namespace classwork
         {
             // Console is a class, WriteLine is a method with a parameter
             Console.WriteLine("Hello World!");
+            MyHouseResults();
+            MyNumericExamples();
+    
+        }
 
+        static void MyNumericExamples()
+        myTypes.GetSomeType();
+
+        int somthing = myTypes.ConvertFloatToInt(35.9F);
+        Console.WriteLine(something);
+
+        Console.WriteLine(myTypes.LongFromInt();)
+        {
+            NumericTypes myTypes = new NumericTypes();
+        }
+        static void MyHouseResults()
+             
+        {
             // Created and objacket instance of House called myHouse
             House myHouse = new House();
             // This sets the value of Red to the objects
