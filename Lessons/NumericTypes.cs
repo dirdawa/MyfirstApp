@@ -47,7 +47,5 @@ namespace Lessons
           Console.WriteLine(_myFloatValue.GetType());
         }
 
-
-
     }
 }
