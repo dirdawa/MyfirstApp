@@ -1,3 +1,4 @@
+using System;
 namespace classwork
 {
     public class CellPhone
@@ -8,26 +9,27 @@ namespace classwork
         string _data;
         string _text;
 
-        public string Voice
-        {
-            get
-            {
+        public string Voice {
+        
+            get {
                 return _answercall;
             }
-            set
-            {
+            set {
                 this._answercall = value;
             }
         }
 
-        public void ClassRoom()
+        public void StartCall()
         {
-
+        Console.WriteLine("startcall");
         }
 
 
         public void EndCall()
-        
+        {
+        Console.WriteLine("endcall");
+        }
+
 
 
         // The following are Method
@@ -44,20 +46,9 @@ namespace classwork
             }
         }
 
-        public void OpenDoor()
-        {
-
-        }
-
-        public void ClosedDoor()
-        {
-
-        }
-
-
-
+       
         // The following are Method
         public string Text { get; set; }
-
+        
     }
 }
