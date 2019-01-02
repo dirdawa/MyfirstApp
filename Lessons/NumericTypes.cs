@@ -94,8 +94,47 @@ namespace Lessons
             }
             Console.WriteLine(testVal);
         }
+            public void IncrementDecremenet()
+        {
+            int myValue = 13, myOther = 10;
+            //myValue = myValue + 1
+            myValue++;
+            Console.WriteLine(myValue);
+            // myOther = myOther -1;
+            myOther--;
+            Console.WriteLine(myOther);
+
+            --myValue;
+            Console.WriteLine(myValue);
+
+            ++myOther;
+            Console.WriteLine(myOther);
+        }
        
-        
+            public void SpcialValues()
+        {
+            Console.WriteLine(2.0 / 0.0);
+            Console.WriteLine(-2.0 / 0.0);
+            Console.WriteLine(2.0 / -0.0);
+            Console.WriteLine(-2.0 /-0.0);
+            Console.WriteLine(0.0 / 0.0);
+            Console.WriteLine((2.0 / -0.0) / (2.0 / 0.0));
+            Console.WriteLine(0.0 / -0.0 == double.NaN);
+            Console.WriteLine(double.IsNaN (0.0 / 0.0));
+            Console.WriteLine(object.Equals(0.0 / -0.0,  double.NaN));
+        }
+
+            public void ComparisonOperators()
+        {
+            bool isCool = true;
+
+            /**bool values can be true or false. No cast type for bool to numeric types */
+            int x = 3, y = 5, z = 3;
+            Console.WriteLine(x == y); //
+            Console.WriteLine(x != y); //
+            Console.WriteLine(x == z); //
+        }
+
     }
 
 }

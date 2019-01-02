@@ -30,6 +30,9 @@ namespace classwork
             myTypes.BasicMath();
 
             myTypes.CheckOperators();
+            myTypes.IncrementDecremenet();
+            myTypes.SpcialValues();
+            myTypes.ComparisonOperators();
         }
         static void MyHouseResults()
 
