@@ -6,6 +6,7 @@ namespace classwork
     {
         // The following are fields
         string _voice;
+        string _answercall;
         string _data;
         string _text;
 
@@ -38,11 +39,11 @@ namespace classwork
         {
             get
             {
-                return _dataon;
+                return _data;
             }
             set
             {
-                this._dataoff = value;
+                this._data = value;
             }
         }
 

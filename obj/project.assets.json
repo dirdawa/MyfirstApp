@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\classroom\\MYRepository\\classwork\\classwork.csproj",
+      "projectUniqueName": "C:\\Users\\classroom\\MyfirstApp\\classwork.csproj",
       "projectName": "classwork",
-      "projectPath": "C:\\Users\\classroom\\MYRepository\\classwork\\classwork.csproj",
+      "projectPath": "C:\\Users\\classroom\\MyfirstApp\\classwork.csproj",
       "packagesPath": "C:\\Users\\classroom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\classroom\\MYRepository\\classwork\\obj\\",
+      "outputPath": "C:\\Users\\classroom\\MyfirstApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

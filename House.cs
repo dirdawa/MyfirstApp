@@ -1,5 +1,5 @@
 using System;
-namespace My_First_App
+namespace classwork
 {
     // public refers to viewing ability
     public class House
@@ -29,7 +29,7 @@ namespace My_First_App
             }
         }
 
-        public string Door {get; set;}
+        public string PaintDoor {get; set;}
 
         // Short handhand property + field
         public string Roof {get; set;}

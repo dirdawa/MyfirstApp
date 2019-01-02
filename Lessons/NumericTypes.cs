@@ -1,6 +1,7 @@
 using System;
-using Lessons;
+namespace Lessons
 {
+
     public class NumericTypes
     {
         /*Integral - Signed */
@@ -51,5 +52,34 @@ using Lessons;
         }
         // Method to demostrate an Explicit Cast from float to int.
         public int ConvertFloatToInt(float value)
+        {
+            int total = (int)value;
+            return total;
+        }
+
+        // Method to demostrate an IMplicit Cast from int to long.
+        public long LongFromInt(int value)
+        {
+            long total = value;
+            return total;
+        }
+
+        public void BasicMath()
+        {
+        int myVal = 5, myOtherVal = 10;
+
+        int addVal = myVal + myOtherVal;
+        int subtractVal = myOtherVal - myVal;
+        int multiplyVal = myVal * myOtherVal;
+        int divisionVal = myVal / myOtherVal;
+        int modulusVal = myVal % myOtherVal;
+
+        Console.WriteLine(addVal);
+        Console.WriteLine(subtractVal);
+        Console.WriteLine(multiplyVal);
+        Console.WriteLine(divisionVal);
+        Console.WriteLine(modulusVal);
+        }
+
     }
 }
