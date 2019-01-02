@@ -33,9 +33,14 @@ namespace classwork
             myTypes.IncrementDecremenet();
             myTypes.SpcialValues();
             myTypes.ComparisonOperators();
+            myTypes.OtherOprators();
         }
-        static void MyHouseResults()
+            static void OtherNumericExamples()
 
+        {
+         
+        }
+            static void MyHouseResults()
         {
         // Created and objacket instance of House called myHouse
         House myHouse = new House();

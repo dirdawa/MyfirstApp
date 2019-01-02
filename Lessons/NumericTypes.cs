@@ -126,7 +126,7 @@ namespace Lessons
 
             public void ComparisonOperators()
         {
-            bool isCool = true;
+            bool isCool = true; // declaration of a bool value
 
             /**bool values can be true or false. No cast type for bool to numeric types */
             int x = 3, y = 5, z = 3;
@@ -134,6 +134,14 @@ namespace Lessons
             Console.WriteLine(x != y); //
             Console.WriteLine(x == z); //
         }
+            public void OtherOprators()
+        {
+            int vall = 5, val2 = 10;
+            // val1 = val1 + val2
+            Console.WriteLine(vall += val2);
+            Console.WriteLine(vall <<= val2);
+        }
+
 
     }
 
