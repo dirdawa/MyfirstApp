@@ -9,7 +9,7 @@ namespace Lessons
         sbyte _mySbyteValue = 1;
 
         // rang -32,768 - 32,767
-        short _myShortValue =4;
+        short _myShortValue = 4;
 
         // rang -2,147,483,648 - 2,147,483,647
         int _myIntValue = 25000;
@@ -45,10 +45,10 @@ namespace Lessons
         // type Inference; the getType method returns the variable type.
         public void GetSomeType()
         {
-          // double
-          Console.WriteLine(3.0.GetType());
-          // float
-          Console.WriteLine(_myFloatValue.GetType());
+            // double
+            Console.WriteLine(3.0.GetType());
+            // float
+            Console.WriteLine(_myFloatValue.GetType());
         }
         // Method to demostrate an Explicit Cast from float to int.
         public int ConvertFloatToInt(float value)
@@ -66,20 +66,36 @@ namespace Lessons
 
         public void BasicMath()
         {
-        int myVal = 5, myOtherVal = 10;
+            int myVal = 5, myOtherVal = 10;
 
-        int addVal = myVal + myOtherVal;
-        int subtractVal = myOtherVal - myVal;
-        int multiplyVal = myVal * myOtherVal;
-        int divisionVal = myVal / myOtherVal;
-        int modulusVal = myVal % myOtherVal;
+            int addVal = myVal + myOtherVal;
+            int subtractVal = myOtherVal - myVal;
+            int multiplyVal = myVal * myOtherVal;
+            int divisionVal = myVal / myOtherVal;
+            int modulusVal = myVal % myOtherVal;
 
-        Console.WriteLine(addVal);
-        Console.WriteLine(subtractVal);
-        Console.WriteLine(multiplyVal);
-        Console.WriteLine(divisionVal);
-        Console.WriteLine(modulusVal);
+            Console.WriteLine(addVal);
+            Console.WriteLine(subtractVal);
+            Console.WriteLine(multiplyVal);
+            Console.WriteLine(divisionVal);
+            Console.WriteLine(modulusVal);
         }
+            public void CheckOperators()
+        {
+            int test = 100, test2 = 100;
+            // Checks the expression
+            int testVal = checked(test * test2);
 
+            // Checks what in the statement block
+            checked
+            {
+                int testagain = test * 300;
+                Console.WriteLine(testagain);
+            }
+            Console.WriteLine(testVal);
+        }
+       
+        
     }
+
 }
