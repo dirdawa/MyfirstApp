@@ -29,11 +29,23 @@ namespace classwork
             Console.WriteLine(myTypes.LongFromInt(5600));
             myTypes.BasicMath();
 
-            myTypes.CheckOperators();
-            myTypes.IncrementDecremenet();
-            myTypes.SpcialValues();
-            myTypes.ComparisonOperators();
-            myTypes.OtherOprators();
+           //myTypes.CheckOperators();
+           //myTypes.IncrementDecremenet();
+           //myTypes.SpcialValues();
+           //myTypes.ComparisonOperators();
+           //myTypes.OtherOprators();
+           //myTypes.OtherNumericExamples();
+           myStringExamples();
+        }
+            static void myStringExamples()
+
+        {
+            stringtypes myTypes= new stringtypes();
+            myTypes.SamplesString();
+            myTypes.AddString();
+            string words = myTypes.StringBuilderExample("Hello", "C Sharp", "Class");
+
+            Console.WriteLine(words);
         }
             static void OtherNumericExamples()
 
