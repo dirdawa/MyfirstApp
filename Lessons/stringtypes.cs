@@ -59,14 +59,14 @@ namespace Lessons
 
         public void ArraySample()
         {
-        	string[] cars = new string[3];
-        	cars[0] = "camaro";
-        	cars[1] = "mustang";
-        	cars[2] = "chevelle";
-        	// or this version
-        	string[] names = { "Tom", "Roger", "Matt" };
-        	Console.WriteLine(cars[1]);
-        	Console.WriteLine(names[0]);
+            string[] cars = new string[3];
+            cars[0] = "camaro";
+            cars[1] = "mustang";
+            cars[2] = "chevelle";
+            // or this version
+            string[] names = { "Tom", "Roger", "Matt" };
+            Console.WriteLine(cars[1]);
+            Console.WriteLine(names[0]);
 
         }
         public void MyHouseArray()
@@ -76,9 +76,21 @@ namespace Lessons
             House house2 = new House();
             house2.PaintDoor = "Blue";
 
-            House[]houseList =  { house1, house2};
+            House[] houseList = { house1, house2 };
 
             Console.WriteLine(houseList[0].PaintDoor);
         }
-    }
+
+        public void MultiArraySample()
+        {
+            int[,] myIntArray = new int[2, 2];
+            myIntArray[0, 0] = 5;
+            myIntArray[0, 1] = 10;
+            myIntArray[1, 0] = 2;
+            myIntArray[1, 1] = 4;
+
+            Console.WriteLine(myIntArray[1, 0]);
+        }
+        
+    }   
 }

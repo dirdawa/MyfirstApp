@@ -51,6 +51,8 @@ namespace classwork
             myTypes.PlaceHolderExample();
             myTypes.ArraySample();
             myTypes.MyHouseArray();
+            myTypes.MultiArraySample();
+            
         }
         static void OtherNumericExamples()
 
