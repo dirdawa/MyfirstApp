@@ -12,10 +12,10 @@ namespace classwork
         static void Main(string[] args)
         {
             // Console is a class, WriteLine is a method with a parameter
-            Console.WriteLine("Hello World!");
-            MyHouseResults();
-            MyNumericExamples();
-
+            //  Console.WriteLine("Hello World!");
+           // MyHouseResults();
+           // MyNumericExamples();
+            myStringExamples();
         }
 
         static void MyNumericExamples()
@@ -29,45 +29,48 @@ namespace classwork
             Console.WriteLine(myTypes.LongFromInt(5600));
             myTypes.BasicMath();
 
-           //myTypes.CheckOperators();
-           //myTypes.IncrementDecremenet();
-           //myTypes.SpcialValues();
-           //myTypes.ComparisonOperators();
-           //myTypes.OtherOprators();
-           //myTypes.OtherNumericExamples();
-           myStringExamples();
-
+            //myTypes.CheckOperators();
+            //myTypes.IncrementDecremenet();
+            //myTypes.SpcialValues();
+            //myTypes.ComparisonOperators();
+            //myTypes.OtherOprators();
+            //myTypes.OtherNumericExamples();
+            
         }
-            static void myStringExamples()
+        static void myStringExamples()
 
         {
-            stringtypes myTypes= new stringtypes();
+            stringtypes myTypes = new stringtypes();
             myTypes.SamplesString();
             myTypes.AddString();
             string words = myTypes.StringBuilderExample("Hello", "C Sharp", "Class");
 
             Console.WriteLine(words);
             myTypes.CharTypExamples();
+            myTypes.EscapeExample();
+            myTypes.PlaceHolderExample();
+            myTypes.ArraySample();
+            myTypes.MyHouseArray();
         }
-            static void OtherNumericExamples()
+        static void OtherNumericExamples()
 
         {
-         
+
         }
-            static void MyHouseResults()
+        static void MyHouseResults()
         {
-        // Created and objacket instance of House called myHouse
-        House myHouse = new House();
-        // This sets the value of Red to the objects
-        myHouse.PaintDoor = "Red";
-        myHouse.CloseDoor();
-        // This gets the value of Red from the object
-        Console.WriteLine(myHouse.PaintDoor); // red
-                                              // This is a second object instance of House.
-        House mySecondHouse = new House();
-        mySecondHouse.PaintDoor = "green";
-        Console.WriteLine(mySecondHouse.PaintDoor); //green
-        Console.WriteLine(myHouse.PaintDoor); //red
+            // Created and objacket instance of House called myHouse
+            House myHouse = new House();
+            // This sets the value of Red to the objects
+            myHouse.PaintDoor = "Red";
+            myHouse.CloseDoor();
+            // This gets the value of Red from the object
+            Console.WriteLine(myHouse.PaintDoor); // red
+                                                  // This is a second object instance of House.
+            House mySecondHouse = new House();
+            mySecondHouse.PaintDoor = "green";
+            Console.WriteLine(mySecondHouse.PaintDoor); //green
+            Console.WriteLine(myHouse.PaintDoor); //red
         }
 
     }

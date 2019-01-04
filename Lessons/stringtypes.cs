@@ -1,6 +1,6 @@
 using System;
 using System.Text;
-
+using classwork;
 
 namespace Lessons
 {
@@ -32,15 +32,53 @@ namespace Lessons
 
         public void CharTypExamples()
         {
-           	char ab = 'A'; 
-           	char de = 'B'; 
-         	char copyrightSymbol = '\u00A9'; 
-           	char hi = (char)88; 
+            char ab = 'A';
+            char de = 'B';
+            char copyrightSymbol = '\u00A9';
+            char hi = (char)88;
 
-          	Console.WriteLine(hi);
-            Console.WriteLine(ab == de); 
-          	Console.WriteLine("The copyright symbol looks like {0}", copyrightSymbol);
+            Console.WriteLine(hi);
+            Console.WriteLine(ab == de);
+            Console.WriteLine("The copyright symbol looks like {0}", copyrightSymbol);
         }
 
+        public void EscapeExample()
+        {
+            Console.WriteLine("My name is Roger O\'Dell");
+            Console.WriteLine("This is an \aAlert");
+            Console.WriteLine("Some sort of new line \nthat I cannot figure out");
+            Console.WriteLine("A sort of tab \t is around here somewhere");
+        }
+
+        public void PlaceHolderExample()
+        {
+            Console.WriteLine("This string is {0}", "cool");
+            Console.WriteLine("We can use ints like {0} and {1}", 15, 10);
+            Console.WriteLine("i like {1} more than {0}, but not as much as {2}", "sad", "happy", "funny");
+        }
+
+        public void ArraySample()
+        {
+        	string[] cars = new string[3];
+        	cars[0] = "camaro";
+        	cars[1] = "mustang";
+        	cars[2] = "chevelle";
+        	// or this version
+        	string[] names = { "Tom", "Roger", "Matt" };
+        	Console.WriteLine(cars[1]);
+        	Console.WriteLine(names[0]);
+
+        }
+        public void MyHouseArray()
+        {
+            House house1 = new House();
+            house1.PaintDoor = "Green";
+            House house2 = new House();
+            house2.PaintDoor = "Blue";
+
+            House[]houseList =  { house1, house2};
+
+            Console.WriteLine(houseList[0].PaintDoor);
+        }
     }
 }
