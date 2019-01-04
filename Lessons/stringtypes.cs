@@ -29,5 +29,18 @@ namespace Lessons
 
             return builder.ToString();
         }
+
+        public void CharTypExamples()
+        {
+           	char ab = 'A'; 
+           	char de = 'B'; 
+         	char copyrightSymbol = '\u00A9'; 
+           	char hi = (char)88; 
+
+          	Console.WriteLine(hi);
+            Console.WriteLine(ab == de); 
+          	Console.WriteLine("The copyright symbol looks like {0}", copyrightSymbol);
+        }
+
     }
 }

@@ -36,6 +36,7 @@ namespace classwork
            //myTypes.OtherOprators();
            //myTypes.OtherNumericExamples();
            myStringExamples();
+
         }
             static void myStringExamples()
 
@@ -46,6 +47,7 @@ namespace classwork
             string words = myTypes.StringBuilderExample("Hello", "C Sharp", "Class");
 
             Console.WriteLine(words);
+            myTypes.CharTypExamples();
         }
             static void OtherNumericExamples()
 
