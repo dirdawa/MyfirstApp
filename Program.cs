@@ -5,7 +5,7 @@ using Lessons;
 the class is in. */
 namespace classwork
 {
-    // Class is a blueprint of an object.
+    //Class is a blueprint of an object.
     class Program
     {
         /*static is only one, void is a return type
@@ -13,12 +13,21 @@ namespace classwork
         static void Main(string[] args)
         {
             // Console is a class, WriteLine is a method with a parameter
-            //  Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
+            //Console.WriteLine("ሰላም ወንድወሰን መልካም ገና!");
             // MyHouseResults();
             // MyNumericExamples();
             // myStringExamples(); 
-            StatementSamples();
+           StatementSamples();
+            
+        }
+            static void JumpStatementExamples()
+        {
 
+        }
+            static void StatementExamples()
+        {
+            
         }
            static void StatementSamples()
         {
@@ -32,7 +41,9 @@ namespace classwork
            se.SampleSwitch(10);
            se.SampleWhile();
            se.SampleDoWhile();
-
+           se.SampleForEach();
+           string myString = se.JumpStatementExample("Sunday");
+           Console.WriteLine(myString);
         }
             static void MyNumericExamples()
         {

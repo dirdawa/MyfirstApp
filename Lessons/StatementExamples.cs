@@ -128,5 +128,34 @@ namespace Lessons
             } while (num < 10);
         }
 
+        public void SampleFor()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Number = {0}", i);
+            }
+        }
+        public void SampleForEach()
+        {
+            foreach (char ch in "Something")
+            {
+                Console.WriteLine(ch);
+            }
+        }
+
+        public string JumpStatementExample(string day)
+        {
+            switch (day)
+            {
+                case "Sunday":
+                    goto default;
+                case "Monday":
+                case "Tuesday":
+                    return "Test Something Tuesday";
+                default:
+                    return "Test Nothing";
+            }
+        }
+
     }
 }
