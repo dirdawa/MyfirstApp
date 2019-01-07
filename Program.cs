@@ -18,7 +18,8 @@ namespace classwork
             // MyHouseResults();
             // MyNumericExamples();
             // myStringExamples(); 
-           StatementSamples();
+            //StatementSamples();
+            BottlesSong();
             
         }
             static void JumpStatementExamples()
@@ -64,7 +65,15 @@ namespace classwork
         //myTypes.ComparisonOperators();
         //myTypes.OtherOprators();
         //myTypes.OtherNumericExamples();
+
         
+        }
+
+        static void BottlesSong()
+        {
+            BottlesofBeer beer = new BottlesofBeer();
+            string song = beer.BottlesofBeerSong();
+            Console.WriteLine(song);
         }
         static void myStringExamples()
 
