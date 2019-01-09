@@ -14,13 +14,23 @@ namespace classwork
         {
              //Console is a class, WriteLine is a method with a parameter
              //Console.WriteLine("Hello World!");
-            // Console.WriteLine("ሰላም ወንድወሰን መልካም ገና!");
+             //Console.WriteLine("ሰላም ወንድወሰን መልካም ገና!");
              //MyHouseResults();
              //MyNumericExamples();
              //myStringExamples(); 
              //StatementSamples();
              HouseSamples();
-                        
+             MyCellPhone();
+             
+                       
+        }
+        static void MyCellPhone()
+        {
+            stringtypes myTypes = new stringtypes();
+            myTypes.SamplesString();
+            myTypes.AddString();
+            string words = myTypes.StringBuilderExample("Hello", " answer Call ", " End Call");
+
         }
         static void JumpStatementExamples()
         {
