@@ -1,5 +1,6 @@
 ﻿using System;
 using Lessons;
+using Quiz;
 
 /*This namespace represents the file folder that
 the class is in. */
@@ -93,8 +94,8 @@ namespace classwork
         static void DisplayGrade()
         {
             DisplayGrade mySampleGrade = new DisplayGrade();
-            mySampleGrade.SampleSwitch();
-            Console.WriteLine();
+            string mygrade = mySampleGrade.SampleSwitch("V");
+            Console.WriteLine(mygrade);
         }
         static void BottlesSong()
         {
