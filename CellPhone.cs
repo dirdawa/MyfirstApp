@@ -70,6 +70,8 @@ namespace classwork
         {
             this._voice = Voice;
             this._answercall = answercall;
+            this._text = Text;
+            this._data = Data;
         }
 
 

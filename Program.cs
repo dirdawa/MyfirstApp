@@ -19,8 +19,8 @@ namespace classwork
              //MyNumericExamples();
              //myStringExamples(); 
              //StatementSamples();
-             HouseSamples();
-             MyCellPhone();
+             //HouseSamples();
+             //MyCellPhone();
              
                        
         }
@@ -30,7 +30,7 @@ namespace classwork
             myTypes.SamplesString();
             myTypes.AddString();
             string words = myTypes.StringBuilderExample("Hello", " answer Call ", " End Call");
-
+            
         }
         static void JumpStatementExamples()
         {
@@ -58,7 +58,7 @@ namespace classwork
             //se.SampleDoWhile();
             //se.SampleForEach();
             //string myString = se.JumpStatementExample("Sunday");
-           // Console.WriteLine(myString);
+            //Console.WriteLine(myString);
             //se.SampleDays(DaysOfWeek.Wed);
         }
         static void MyNumericExamples()
@@ -81,10 +81,19 @@ namespace classwork
             //myTypes.OtherOprators();
             //myTypes.OtherNumericExamples();
             //BottlesSong();
-            // SimpleCalculator();
-            
+            DisplayGrade();
+            Numbers();
+                    
         }
 
+        static void Numbers()
+        {
+            
+        }
+        static void DisplayGrade()
+        {
+            
+        }
         static void BottlesSong()
         {
             BottlesofBeer beer = new BottlesofBeer();
