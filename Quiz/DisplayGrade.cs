@@ -2,38 +2,33 @@ namespace Quiz
 {
     public class DisplayGrade 
     {
-        public int Grade(int a)
+       public string SampleSwitch(string grade)
         {
-            myMarks.MarksValue = a.ToString();
-            int answer = a;
-
-            return a;
-
-            if (a < 59)
+            if  (grade == "F")
             {
-                MessageBox.Show("Fail");
+                return ("Fail");
             }
-            else if (a >= 60 && a <= 78)
+            else if (grade == "A")
             {
-                MessageBox.Show("Average");
+                return ("Average");
             }
-            else if (a >= 79 && a <= 89)
+            else if (grade == "G")
             {
-                MessageBox.Show("Good");
+                return ("Good");
             }
-            else if (a >= 90 && a <= 100)
+            else if (grade == "V")
             {
-                MessageBox.Show("Very Good");
+                return ("Very Good");
             }
-            else if (a >= 90 && a <= 100)
+            else if (grade == "E")
             {
-                MessageBox.Show("Excellent");
+                return "Excellent";
             }
             else
             {
-                MessageBox.Show("it is not a valid grade");
+                return "it is not a valid grade";
             }
-            return a;
+            
           
         }
     }

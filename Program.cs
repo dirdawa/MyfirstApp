@@ -82,7 +82,7 @@ namespace classwork
             //myTypes.OtherNumericExamples();
             //BottlesSong();
             DisplayGrade();
-            Numbers();
+            //Numbers();
                     
         }
 
@@ -92,7 +92,9 @@ namespace classwork
         }
         static void DisplayGrade()
         {
-            
+            DisplayGrade mySampleGrade = new DisplayGrade();
+            mySampleGrade.SampleSwitch();
+            Console.WriteLine();
         }
         static void BottlesSong()
         {
