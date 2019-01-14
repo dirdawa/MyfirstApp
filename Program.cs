@@ -22,8 +22,16 @@ namespace classwork
              //StatementSamples();
              //HouseSamples();
              //MyCellPhone();
+             DisplayGrade();
+             Numbers();
              
                        
+        }
+        static void Numbers()
+        {
+            Numbers mynumbers = new Numbers();
+            mynumbers.Numbers();
+            Console.WriteLine(result);            
         }
         static void MyCellPhone()
         {
@@ -82,20 +90,16 @@ namespace classwork
             //myTypes.OtherOprators();
             //myTypes.OtherNumericExamples();
             //BottlesSong();
-            DisplayGrade();
-            //Numbers();
-                    
+                                
         }
 
-        static void Numbers()
+             static void DisplayGrade()
         {
-            
-        }
-        static void DisplayGrade()
-        {
-            DisplayGrade mySampleGrade = new DisplayGrade();
-            string mygrade = mySampleGrade.SampleSwitch("V");
-            Console.WriteLine(mygrade);
+
+            DisplayGrade grade = new DisplayGrade();
+            Console.WriteLine (grade.grade("A"));           
+
+                
         }
         static void BottlesSong()
         {
