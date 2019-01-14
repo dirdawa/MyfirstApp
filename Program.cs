@@ -1,5 +1,7 @@
-﻿using System;
+﻿
+using System;
 using Lessons;
+using  classwork;
 using Quiz;
 
 /*This namespace represents the file folder that
@@ -22,11 +24,27 @@ namespace classwork
              //StatementSamples();
              //HouseSamples();
              //MyCellPhone();
-             DisplayGrade();
-             Numbers();
-             
+             //DisplayGrade();
+             //Numbers();
+             FruitSamples();
                        
         }
+        static void FruitSamples()
+        {
+            Apple myApple = new Apple();
+            myApple.EatFruit();
+            
+            Fruit myFruit = new Fruit();
+            myFruit.EatFruit();
+
+            Orange myOrange = new Orange();
+            myOrange.EatFruit();
+
+            RanchStyle ranch = new RanchStyle("Stone", "Triple Pane", "Composite", "blue");
+            ranch.OpenDoor();
+            Console.WriteLine(ranch.Roof);
+        }
+
         static void Numbers()
         {
             Numbers mynumbers = new Numbers();
@@ -93,11 +111,11 @@ namespace classwork
                                 
         }
 
-             static void DisplayGrade()
+            static void DisplayGrade()
         {
 
             DisplayGrade grade = new DisplayGrade();
-            Console.WriteLine (grade.grade("A"));           
+            Console.WriteLine (grade.grade("A, G, E,"));           
 
                 
         }
