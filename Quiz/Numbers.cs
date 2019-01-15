@@ -6,7 +6,7 @@ namespace Quiz
         public void Numbers0()
         {
             {
-            for (int i = 0; i < 50; i++) ;
+            for (int i = 0; i < 50; i++) 
             {
                 if (i % 3 == 0)
                 {
