@@ -1,7 +1,5 @@
-﻿
-using System;
+﻿using System;
 using Lessons;
-using  classwork;
 using Quiz;
 
 /*This namespace represents the file folder that
@@ -22,26 +20,45 @@ namespace classwork
              //MyNumericExamples();
              //myStringExamples(); 
              //StatementSamples();
-             //HouseSamples();
-             //MyCellPhone();
-             //DisplayGrade();
-             //Numbers();
-             //FruitSamples();
-             Lessons11Samples();                       
+             HouseSamples();
+             CellPhone();
+             DisplayGrade();
+             Numbers();
+             FruitSamples();
+             Lesson11Samples();
+             ModifierExamples();
+
+        }
+        static void ModifierExamples()
+        {
+            int test = 14;
+            Lesson11 myLesson = new Lesson11();
+            myLesson.RefSamples(ref test);
+            Console.WriteLine(test);
+            string first, second;
+            myLesson.OutSample("John Doe", out first, out second);            
+
+            Console .WriteLine(first);
+            Console.WriteLine(second);
         }
 
-        static void Lessons11Samples()
+        static void Lesson11Samples()
         {
-            Lessons11 lessons = new Lessons11();
-            lessons.useParams( 10, 3, 24, 36, 45, 120 );
+            Lesson11 lesson = new Lesson11();
+            lesson.useParams( 10, 3, 24, 36, 45, 120 );
 
-            lessons.useParams();
+            lesson.useParams();
 
             int[] intArray = { 2, 3, 4, 5, 6};
-            lessons.useParams(intArray);
+            lesson.useParams(intArray);
 
-            lessons.useParams2(1,"Happy", false, 34, 5F);            
+            lesson.useParams2(1,"Happy", false, 34, 5F); 
+
+            lesson.OptionalParams("Roger");
+            lesson.OptionalParams("Mathew", 19);                              
         }
+        
+        
         static void FruitSamples()
         {
             Apple myApple = new Apple();
@@ -64,11 +81,11 @@ namespace classwork
             mynumbers.Numbers0();
             Console.WriteLine();            
         }
-        static void MyCellPhone()
+        static void CellPhone()
         {
-            stringtypes myTypes = new stringtypes();
-            myTypes.SamplesString();
-            myTypes.AddString();
+            CellPhone mycellphone = new CellPhone();
+            mycellphone.AnswerCall();
+            Console.WriteLine();
             string words = myTypes.StringBuilderExample("Hello", " answer Call ", " End Call");
             
         }
