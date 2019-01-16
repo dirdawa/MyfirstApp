@@ -25,7 +25,7 @@ namespace classwork
              //HouseSamples();
              //MyCellPhone();
              //DisplayGrade();
-             //Numbers();
+             Numbers();
              FruitSamples();
                        
         }
@@ -48,8 +48,8 @@ namespace classwork
         static void Numbers()
         {
             Numbers mynumbers = new Numbers();
-            mynumbers.Numbers();
-            Console.WriteLine(result);            
+            mynumbers.Numbers0();
+            Console.WriteLine();            
         }
         static void MyCellPhone()
         {

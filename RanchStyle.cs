@@ -3,13 +3,13 @@ namespace classwork
 {
     public class RanchStyle : House
     {
-        public RanchStyle(string foudation, string window, string roof, string doorpaint)
-        : base(founsaion, windows, roof, doorpaint)
+        public RanchStyle(string foudation, string windows, string roof, string doorpaint)
+        : base(foudation, windows, roof, doorpaint)
         {
-            Console.writeLine("Ranch Style Constractor");
+            Console.WriteLine("Ranch Style Constractor");
         }
-        public RanchStyle(string foudation, string window)
-        : base(founsaion, windows)
+        public RanchStyle(string foudation, string windows)
+        : base(foudation, windows)
         {
             Console.WriteLine("Ranch Style Constractor");
         }
