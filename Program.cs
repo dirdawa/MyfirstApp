@@ -25,9 +25,22 @@ namespace classwork
              //HouseSamples();
              //MyCellPhone();
              //DisplayGrade();
-             Numbers();
-             FruitSamples();
-                       
+             //Numbers();
+             //FruitSamples();
+             Lessons11Samples();                       
+        }
+
+        static void Lessons11Samples()
+        {
+            Lessons11 lessons = new Lessons11();
+            lessons.useParams( 10, 3, 24, 36, 45, 120 );
+
+            lessons.useParams();
+
+            int[] intArray = { 2, 3, 4, 5, 6};
+            lessons.useParams(intArray);
+
+            lessons.useParams2(1,"Happy", false, 34, 5F);            
         }
         static void FruitSamples()
         {
