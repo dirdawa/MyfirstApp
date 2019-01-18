@@ -20,15 +20,41 @@ namespace classwork
              //MyNumericExamples();
              //myStringExamples(); 
              //StatementSamples();
-             HouseSamples();
-             CellPhone();
-             DisplayGrade();
-             Numbers();
-             FruitSamples();
-             Lesson11Samples();
-             ModifierExamples();
+             //HouseSamples();
+             //CellPhone();
+             //DisplayGrade();
+            // Numbers();
+             //FruitSamples();
+            //Lesson11Samples();
+             //ModifierExamples();
+             //Lesson12();
+             AbstractDemo();
 
         }
+
+        static void AbstractDemo()
+        {
+            TRex trex = new TRex();
+            Triceratops triceratops = new Triceratops();
+
+            trex.EatFood();
+            trex.Sick();
+            trex.Move();
+
+            triceratops.EatFood();
+            triceratops.Dead();
+            triceratops.Move();            
+        }
+
+        static void Lesson12()
+        {
+            double temp = Utilities.CelsiusToFahrenheit("43.2");
+            double temp2 = Utilities.FahrenheitToCelsius("109.76");
+            Console.WriteLine(temp);
+            Console.WriteLine(temp2);
+
+        }
+        
         static void ModifierExamples()
         {
             int test = 14;
@@ -81,14 +107,14 @@ namespace classwork
             mynumbers.Numbers0();
             Console.WriteLine();            
         }
-        static void CellPhone()
+        /* static void CellPhone()
         {
             CellPhone mycellphone = new CellPhone();
             mycellphone.AnswerCall();
             Console.WriteLine();
-            string words = myTypes.StringBuilderExample("Hello", " answer Call ", " End Call");
-            
-        }
+            string words = mycellphone.StringBuilderExample("Hello", " answer Call ", " End Call");
+         } */  
+        
         static void JumpStatementExamples()
         {
         
