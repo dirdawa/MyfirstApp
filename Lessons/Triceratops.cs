@@ -1,5 +1,4 @@
-
-using System; 
+using System;
 namespace Lessons
 {
     public class Triceratops : Dinosaur
@@ -13,6 +12,15 @@ namespace Lessons
         {
             Console.WriteLine("Triceratops Is Sick");
             Console.WriteLine("Triceratops Is Dead");
+        }
+
+        public override void SkinType()
+        {
+            Console.WriteLine("Leathery");
+        }
+        public override void Teeth()
+        {
+            Console.WriteLine("Flat");
         }
     }
 }

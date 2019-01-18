@@ -39,9 +39,12 @@ namespace classwork
 
             trex.EatFood();
             trex.Sick();
+            trex.Teeth();
             trex.Move();
 
             triceratops.EatFood();
+            triceratops.SkinType();
+            triceratops.Teeth();
             triceratops.Dead();
             triceratops.Move();            
         }

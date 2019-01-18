@@ -1,7 +1,7 @@
 using System;
 namespace Lessons
 {
-    public abstract class Dinosaur
+    public abstract class Dinosaur : IPrehistoric
     {
         public abstract void EatFood();
         public virtual void Move()
@@ -15,5 +15,9 @@ namespace Lessons
             Console.WriteLine("The Dinosaur Sick");          
 
         }
+
+        public abstract void SkinType();
+        
+        public abstract void Teeth();
     }
 }

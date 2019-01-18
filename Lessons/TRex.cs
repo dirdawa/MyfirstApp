@@ -18,5 +18,16 @@ namespace Lessons
         {
             Console.WriteLine("Dinosaur Sick");
         }
+
+        public override void SkinType() 
+        {
+            Console.WriteLine("Feathery");
+        }
+            
+        public override void Teeth()
+        {
+           Console.WriteLine("Razor Sharp");	 
+        }
+        
     }
-}
+}   
