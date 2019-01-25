@@ -32,9 +32,16 @@ namespace classwork
             //DeconstructSamples();
             //FinalizerExample();
             IndexerExample();
+            Trangle();
 
         }
 
+        static void Trangle()
+        {
+            
+        }
+        
+        
         static void IndexerExample()
         {
             IndexerExample myIndexer = new IndexerExample(); 
