@@ -1,7 +1,7 @@
 using System;
 namespace Lessons
 {
-    public class Lesson11
+    public class Lessons11
     {
         public const int MY_VALUE = 25;
 
