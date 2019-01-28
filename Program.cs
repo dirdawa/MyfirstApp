@@ -36,8 +36,16 @@ namespace classwork
             //AnotherHouseExamples();
             //GenericSample();
             //CollectionExamples();
-            Trangle();
+            //Trangle();
+            pyramid(); 
 
+        }
+
+        static void pyramid()
+        {
+            pyramid ce = new pyramid();
+            ce.pyramidExamples();         
+            
         }
 
 

@@ -27,7 +27,7 @@ namespace Lessons
                         s = s - 1;
                     }*/
 
-                    Console.Write("X");
+                    Console.Write("=>");
                 }
                 Console.Write("\n");
                 odd = odd + 2;
