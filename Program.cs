@@ -35,14 +35,23 @@ namespace classwork
             //IndexerExample();
             //AnotherHouseExamples();
             //GenericSample();
-            CollectionExamples();
+            //CollectionExamples();
+            Trangle();
 
+        }
+
+
+        static void Trangle()
+        {
+            Trangle ce = new Trangle();
+            ce.TriangleExamples();
         }
 
         static void CollectionExamples()
         {
             CollectionExamples ce = new CollectionExamples();
             ce.MyArrayListExample();
+            ce.MyListExample();
 
         }        
 

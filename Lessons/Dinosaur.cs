@@ -3,6 +3,7 @@ namespace Lessons
 {
     public abstract class Dinosaur : IPrehistoric
     {
+        public string Travel="Walk";
         public abstract void EatFood();
         public virtual void Move()
         {
