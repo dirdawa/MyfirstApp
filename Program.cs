@@ -37,8 +37,15 @@ namespace classwork
             //GenericSample();
             //CollectionExamples();
             //Trangle();
-            pyramid(); 
+            //pyramid();
+            LabResults(); 
 
+        }
+
+        static void LabResults()
+        {
+            LabResults ce = new LabResults();
+            ce.LabResultsExamples();
         }
 
         static void pyramid()
